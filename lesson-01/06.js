@@ -1,10 +1,7 @@
 
 function strim() {
-    let str = "zzzzyzz"
-    return (
-        str.includes("y")
-        ?   console.log("нашел")
-            : console.log("заблудился")
-    )
+    let str = "zzzzyzz";
+    return str.includes("y") ? "нашел" : "заблудился";
 }
-strim()
+
+console.log(strim());
